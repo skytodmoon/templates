@@ -184,6 +184,7 @@ templates:
     - container:
         args:
             - |
+              pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
               pip install --upgrade pip &&\
               pip install opencv-python albumentations tqdm pyyaml pycocotools && \
               cd /mnt/src/preprocessing/workflows/albumentations-preprocessing && \
