@@ -210,8 +210,8 @@ templates:
               s3:
                 key: '{{workflow.parameters.cvat-annotation-path}}'
             - git:
-                repo: https://github.com/onepanelio/templates.git
-                revision: v0.18.0
+                repo: https://gitclone.com/github.com/onepanelio/templates.git
+                revision: v1.0.0
               name: src
               path: /mnt/src/preprocessing
       name: preprocessing
